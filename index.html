@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ZOO</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="fondo">
+    <h1 style="color:blue; text-align:center;">MINI ZOOCU</h1>
+    <h2 id="dos" style="background-color:#FA58F4";>EN BUSCA DEL ARCA CONQUENSE</h2>
+    <h3 style= text-indent:20px>Nos encantaría saber que animales tenemos en la provincia de cuenca</h3>
+    <h4 style="color:red;text-align:center;">Participa y entra en el sorteo de un año <span style="text-decoration: underline;">gratis</span> de comida para tú mascota y otros dos premios más para los que esten el los siguientes puestos</h4>
+    <h5 style="color:green; text-align: right";>Venga participa</h5>
+    <h6 id="sub">Puedes ser uno de los ganadores</h6>
+    <!--<p>Este es el párrafo de prueba.<br/>Segunda parte</p>-->
+    <img id="zoo" src="fotos/zoo.jpg" width="600" height="300" alt="zoo" title="zoo" />
+    <h3 id="todos"> ¿QUE ANIMALES TIENES EN CASA? </h3>
+    <form action="sorteo.php" method="get" name="FORMULARIO">
+       <p id="todo" class="texto">¿Cuántos animales tienes en casa?</p>
+       <input type="number" name="NumberA" placeholder="Number" required/><br/><br/>
+       <p id="todo">Inscribe a tu mascota con la que te quieres presentar al concurso</p>
+       <input type="text" name= "NombreMascota" placeholder="Nombre MASCOTA" required/>
+        <input type="date" name="Date" required id="date"/>
+        <input type="time" name="Time" id="time"/><br/>
+        <p id="todo">Datos personales</p>
+        <input type="text" name="Nombre" placeholder="Nombre" id="Nombre" required/>
+        <input type="text" name="Apellidos" placeholder="Apellidos" id="Apellidos"/>
+        <input type="text" name="Localidad" placeholder="Localidad" required/>
+        <input type="email" name="Email" required id="email" placeholder="Email"/><br/>
+        <input type="text" maxlength="9" name="Telefono"  required id="Telefono" placeholder="Telefono"/><br/><
+        <input id="boton" type="submit" name="submit" value="Envar"/><br/>
+        <output id="cinco"> 5+3 = <input id="ocho" type="text" maxlength="1" name="number" required id="Number" placeholder="Número"/></output>
+        <!--<p>¿Qué navegador utilizas?</p>
+        <input list="browsers"/
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+        </datalist>-->
+        
+    </form>
+</div>
+<div>
+    <p id="gracias" style="text-transform: uppercase;">Gracias por participar le dejamos un video, representando como sería nuestro zoo en dibujos animados.</p><br/>
+    <iframe id="videoz" width="360" height="515" src="https://www.youtube.com/embed/wVuDAiR7GB4" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
+<div>
+    <ul style="list-style: none;">
+      <li><p style="color:#FF0040;background-color: #00ffff;text-align:center">B     E    B   É   S</p></li>
+      <li style="float:left;"><h3>Perro</h3><img id="perro"src="fotos/perro.jpg" width="200" height="100" alt="perro" title="perro"/></li>
+        <li style="float:right;" ><em>Gato</em><img id="gato" src="fotos/gato.jpg" width="auto" height="150" alt="gato" title="gato"/></li>
+     <li><img id="eri" src="fotos/erizo.jpg" width="auto" height="160"alt="erizo" title="erizo"/><img id="jira" src="fotos/jirafa.jpg" height="160" alt="jirafa" title="jirafa"/></li>
+    
+    </ul>
+   </div>
+<div>
+    <ol>
+    <li style="float:left;"><h4 style="text-align: center;">Elefante</h4><iframe id="elefante"  width="300" height="215" src="https://www.youtube-nocookie.com/embed/ZJLcQgTtJXY?rel=0&amp;showinfo=0&amp;start=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+    <li style="float:right;"><h4 style="text-align: center;"><del><strong><span>Oso</strong></del></h4><iframe id="oso" width="300" height="200" src="https://www.youtube.com/embed/GiKukKwHXHQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li><br/>
+    </ol>
+    <a href="https://www.google.es/" target="_blank"> <h3 style="text-align: center;"><STRONG>BUSCADOR</STRONG></h3></a>
+    
+</div>  
+<div>
+    <h3 style=" text-align: center;">GRACIAS</h3>
+<p style="text-decoration: blink; text-align: center; font-family: cursive; font-family: fantasy; font-weight: 700; color:red;">Move the mouse over the image below to open the dropdown content.</p>
+<div id="dropdown">
+  
+  <div id="dropdown-content">
+    <img src="fotos/abraz.jpg" alt="abrazo" width="300" height="200">
+        <div id="desc">ABRAZO</div>
+</div>
+
+
+</body>
+</html>

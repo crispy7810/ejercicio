@@ -1,0 +1,24 @@
+#fondo{height:1050px; width:950px; background-color:#e6ffff; padding-top:5px;}
+#sub{background-color:#fff;}
+body{height:950px;width:950px; margin: auto; margin-top:60px; background-image: url(estrella.jpg);}
+#zoo{margin-left:300px; width:50%;border-style: double;}
+#videoz{height:400px;width:700px; margin-left:120px; margin-top:10px;border-radius:20%;border-style: ridge;}
+#elefante {border-color: red; border-style: double; border-width:7px;}
+#perro{width:250px; border-style: groove;}
+a:hover{color:#cc3399;}
+#gato{border-style:double; border-color:#00ff00;}
+#eri{border-bottom-right-radius:30%; border-bottom-left-radius: 30%;}
+#jira{border-right-color:#000099; border-right-style: groove; border-right-width: 14px;}
+#oso{border-radius:30px;}
+#gracias{font-size:20px; text-shadow: 0 0 3px #ff00ff, 0 0 5px #0000FF; text-align: center;}
+input{ width: 40%; margin-left: 70px;}
+#boton{width:20%;}
+#todo{margin-left: 70px;}
+#todos{font-family: fantasy;margin-left: 300px;}
+#ocho{width: 20%; margin-left: 5px;}
+#cinco{margin-left: 70px;}
+#dos{text-indent: 100px;}
+#muchas{color:#cc0000; text-transform: capitalize;}
+#mensaje{text-transform:uppercase; text-decoration: underline; text-align: center; color:#003300;}
+#dropdown-content:hover{display: inline-block;position: absolute;background-color:#ccffff;min-width: 60px;}
+#desc{padding: 30px;text-align: center;}
