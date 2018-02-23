@@ -29,5 +29,4 @@ echo"<html>
 </div>
 </body>
 </html>";
-#prueba
 ?>
